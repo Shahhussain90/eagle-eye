@@ -51,10 +51,10 @@
     <header>
         <nav data-aos="fade-in">
             <div class="nav_1">
-                <a href="" style="padding-left: 0;">Home</a>
-                <a href="">About us</a>
-                <a href="">Services</a>
-                <a href="">Contact</a>
+                <a href="index.php" style="padding-left: 0;">Home</a>
+                <a href="#about_us">About us</a>
+                <a href="#services">Services</a>
+                <a href="#contact_section">Contact</a>
             </div>
             <div class="nav_2">
                 <a class="nav-link" href="#">
@@ -79,10 +79,10 @@
                 <i class="fa-solid fa-xmark"></i>
                 <!-- <i class="fa-solid fa-shield-halved"></i> -->
                 <div>
-                    <a href="">Home</a>
-                    <a href="">About us</a>
-                    <a href="">Services</a>
-                    <a href="">Contact</a>
+                    <a href="index.php">Home</a>
+                    <a href="#about_us">About us</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact_section">Contact</a>
                 </div>
             </div>
         </div>
@@ -216,7 +216,7 @@
 
 
 
-    <section class="ccf-services-section">
+    <section class="ccf-services-section" id="services">
         <div class="ccf-services-bg">
             <div class="ccf-services-header" data-aos="fade-up" data-aos-delay="300">
                 <span class="ccf-services-subtitle">Our Services</span>
@@ -293,7 +293,7 @@
 
 
 
-    <section class="about_us">
+    <section class="about_us" id="about_us">
         <div class="card mb-3 partner_card" data-aos="fade-up" data-aos-delay="300">
             <div class="row no-gutters">
 
@@ -372,7 +372,7 @@
 
 
 
-    <div class="contact_section" data-aos="fade-up" data-aos-delay="300">
+    <div class="contact_section" id="contact_section" data-aos="fade-up" data-aos-delay="300">
         <div>
             <span>Need Assistance?</span>
             <h2>We’re Here to Help</h2>
@@ -411,7 +411,7 @@
                 <h6>Useful Links</h6>
                 <a href="index.php">Home</a>
                 <a href="#about">About Us</a>
-                <a href="#Portfolio">Portfolio</a>
+                <!-- <a href="#Portfolio">Portfolio</a> -->
                 <a href="#services">Services</a>
             </div>
 
@@ -419,15 +419,15 @@
             <div class="footer_divs">
                 <h6>Support</h6>
                 <a href="index.php">FAQs</a>
-                <a href="#contact">Contact Us</a>
+                <a href="#contact_section">Contact Us</a>
                 <a href="index.php">Privacy Policy</a>
-                <a href="#services">Services</a>
+                <!-- <a href="#services">Services</a> -->
             </div>
 
             <!-- Contact Info -->
             <div class="footer_divs">
                 <h6>Contact Information</h6>
-                <span>Address anywhere, City ABC, Country</span>
+                <span>Karachi, PAKISTAN</span>
                 <span>+92 322 2617019</span>
                 <span>info@eagleeye-security.com</span>
                 <span class="social_icons">
